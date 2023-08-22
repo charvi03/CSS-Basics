@@ -11,6 +11,18 @@
         -webkit-mask-repeat: no-repeat;
         mask-repeat: no-repeat;
       }
+      .mask2 {
+        -webkit-mask-image: linear-gradient(black, transparent);
+        mask-image: linear-gradient(red, transparent);
+      }
+      .mask3 {
+        max-width: 500px;
+        height: 150px;
+        overflow-y: scroll;
+        background: url(Images/building-image.jpg) no-repeat;
+        -webkit-mask-image: linear-gradient(black, transparent);
+        mask-image: linear-gradient (black, transparent);
+      }
     </style>
   </head>
   <body>
@@ -22,6 +34,28 @@
     </div>
 
     <h3>Original image:</h3>
-    <img src="Images/food1.jpg" alt="" width="600" height="400" />
+    <img src="Images/food1.jpg" alt="" width="600" height="400" class="mask2" />
+    <div class="mask3">
+      <p>
+        The Cinque Terre is a coastal area within Liguria, in the northwest of
+        Italy. It lies in the west of La Spezia Province, and comprises five
+        villages: Monterosso al Mare, Vernazza, Corniglia, Manarola, and
+        Riomaggiore.
+      </p>
+
+      <p>
+        The Cinque Terre is a coastal area within Liguria, in the northwest of
+        Italy. It lies in the west of La Spezia Province, and comprises five
+        villages: Monterosso al Mare, Vernazza, Corniglia, Manarola, and
+        Riomaggiore.
+      </p>
+
+      <p>
+        The Cinque Terre is a coastal area within Liguria, in the northwest of
+        Italy. It lies in the west of La Spezia Province, and comprises five
+        villages: Monterosso al Mare, Vernazza, Corniglia, Manarola, and
+        Riomaggiore.
+      </p>
+    </div>
   </body>
 </html>
